@@ -1,0 +1,47 @@
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-list .item {
+  width: 270px;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+.section.features {
+  padding-bottom: 0;
+}
+
+.feature-list .title,
+.team-list .title,
+.portfolio-list .title {
+  color: var(--title-text-color);
+}
+
+.feature-list .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}

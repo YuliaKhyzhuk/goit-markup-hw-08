@@ -1,0 +1,7 @@
+%logo_hoverfocus {
+    .logo:hover &,
+    .logo:focus & {
+      color: var(--primary-text-color);
+    }
+  }
+  

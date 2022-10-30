@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 13px 32px 7px;
+  min-width: 216px;
+  text-align: center;
+
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-background-color);
+  }
+}
