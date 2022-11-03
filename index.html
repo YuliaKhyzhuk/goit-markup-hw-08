@@ -58,7 +58,7 @@
           </li>
         </ul>
       </div>
-      
+
       <div class="mobile-menu">
         <div class="container mobile-menu__container">
           <button class="mobile-menu__close-btn">
@@ -133,19 +133,55 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="specialization-list list">
             <li class="specialization thumb">
-              <img
-                src="./images/coding.jpg"
-                width="370"
-                alt="набір програмного коду на клавіатурі"
-              />
+              <picture>
+                <source
+                  srcset="./images/appdesktop.webp 1x, ./images/appdesktop@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/appdesktop.jpg 1x, ./images/appdesktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/coding.jpg"
+                  width="370"
+                  alt="набір програмного коду на клавіатурі"
+                />
+              </picture>
               <h3 class="specialization title">Десктопні додатки</h3>
             </li>
             <li class="specialization thumb">
+              <picture>
+                <source
+                  srcset="./images/mobiledesktop.webp 1x, ./images/mobiledesktop@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/mobiledesktop.jpg 1x, ./images/mobiledesktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
               <img src="./images/mobile.jpg" width="370" alt="створення мобільної версії сайта" />
+            </picture>
               <h3 class="specialization title">Мобільні додатки</h3>
             </li>
             <li class="specialization thumb">
+              <picture>
+                <source
+                  srcset="./images/appdesign.webp 1x, ./images/appdesign@2x.webp 2x"
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="./images/appdesign.jpg 1x, ./images/appdesign@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
               <img src="./images/design.jpg" width="370" alt="вибір кольорової гами з палітри" />
+            </picture>
               <h3 class="specialization title">Дизайнерські рішення</h3>
             </li>
           </ul>
@@ -157,7 +193,12 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
+              <picture>
+                <source srcset="" media="" type="" />
+                <source srcset="" media="" type="" />
+
               <img src="./images/idemianenko.jpg" width="270" alt="портрет чоловіка" />
+            </picture>
               <div class="card">
                 <h3 class="title">Ігор Дем'яненко</h3>
                 <p lang="en" class="position">Product Designer</p>
