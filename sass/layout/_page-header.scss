@@ -14,13 +14,6 @@
   }
 }
 
-.mobile-menu-btn {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  line-height: 0;
-}
-
 .main-nav {
   @media screen and (max-width: 767px) {
     .site-nav {
@@ -33,6 +26,13 @@
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
+}
+
+.mobile-menu-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
 }
 
 .site-nav {

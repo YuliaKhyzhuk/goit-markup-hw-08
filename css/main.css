@@ -511,13 +511,6 @@ body {
     pointer-events: none;
   }
 }
-.mobile-menu-btn {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  line-height: 0;
-}
-
 .main-nav {
   border-bottom: 1px solid #ececec;
   display: flex;
@@ -529,6 +522,13 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+}
+
+.mobile-menu-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
 }
 
 .site-nav {
