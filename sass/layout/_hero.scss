@@ -30,17 +30,19 @@
       url('../images/herobackground-mobile@3x.jpg');
   }
 
+  // tablet
+
   @media screen and (min-width: 768px) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/herobackground-tablet.jpg');
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/herobackground-tablet@2x.jpg');
-}
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/herobackground-tablet@2x.jpg');
+  }
 
   @media screen and (min-device-pixel-ratio: 3) and (min-width: 768px),
     screen and (min-resolution: 288dpi) and (min-width: 768px),
@@ -49,17 +51,19 @@
       url('../images/herobackground-tablet@3x.jpg');
   }
 
+// desktop
+
   @media screen and (min-width: 1200px) {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/herobackground-desktop.jpg');
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  screen and (min-resolution: 192dpi) and (min-width: 1200px),
-  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/herobackground-desktop@2x.jpg');
-}
+    screen and (min-resolution: 192dpi) and (min-width: 1200px),
+    screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/herobackground-desktop@2x.jpg');
+  }
 
   @media screen and (min-device-pixel-ratio: 3) and (min-width: 1200px),
     screen and (min-resolution: 288dpi) and (min-width: 1200px),
