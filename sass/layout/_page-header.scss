@@ -1,13 +1,18 @@
 @media screen  and (max-width: 767px) {
   .site-nav  {
     display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
   
   .header-contacts {
     display: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
-
 
 .main-nav {
   border-bottom: 1px solid #ececec;
