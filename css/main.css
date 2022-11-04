@@ -304,6 +304,11 @@ body {
 .social-list-footer {
   display: flex;
 }
+@media screen and (max-width: 767px) {
+  .social-list-footer {
+    justify-content: center;
+  }
+}
 
 .social-list-team__item,
 .social-list-footer__item {
@@ -1200,6 +1205,11 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .contact-info {
+    margin-bottom: 60px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .contact-info {
     text-align: center;
@@ -1234,7 +1244,7 @@ body {
   .foot > .container {
     display: flex;
     align-items: baseline;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 30px;
   }
@@ -1246,8 +1256,15 @@ body {
   }
 }
 
-.social {
-  margin-left: auto;
+@media screen and (max-width: 767px) {
+  .social {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social {
+    margin-left: auto;
+  }
 }
 
 .label {
