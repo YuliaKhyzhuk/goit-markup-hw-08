@@ -563,12 +563,29 @@ body {
 }
 
 .subscribe {
-  width: 570px;
   height: 86px;
+}
+@media screen and (max-width: 1199px) {
+  .subscribe {
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-left: 93px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .social {
+    text-align: center;
+  }
 }
 
 .subscribe-form {
   display: flex;
+  justify-content: space-between;
 }
 
 .subscribe-form__input {
@@ -1183,6 +1200,12 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 1199px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+
 .footer-contacts__address {
   margin-top: 0;
   margin-bottom: 9px;
@@ -1207,17 +1230,24 @@ body {
   margin-bottom: 9px;
 }
 
-.foot > .container {
-  display: flex;
-  align-items: baseline;
+@media screen and (min-width: 768px) {
+  .foot > .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
 }
-
-.contact-info {
-  margin-right: 70px;
+@media screen and (min-width: 1200px) {
+  .foot > .container {
+    align-items: baseline;
+    justify-content: flex-start;
+  }
 }
 
 .social {
-  margin-right: 93px;
+  margin-left: auto;
 }
 
 .label {

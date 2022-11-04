@@ -1,10 +1,26 @@
 .subscribe {
-  width: 570px;
+  // width: 570px;
   height: 86px;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    margin: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
+}
+
+.social {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .subscribe-form {
   display: flex;
+  justify-content: space-between;
 }
 
 .subscribe-form__input {
