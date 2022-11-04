@@ -930,15 +930,26 @@ body {
 
 .client-list {
   display: flex;
-}
-
-.client-list .client-item + .client-item {
-  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .client-item {
-  width: 170px;
+  width: 210px;
   height: 92px;
+}
+@media screen and (min-width: 768px) {
+  .client-item {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client-item {
+    width: 170px;
+    height: 92px;
+  }
 }
 
 .client-link {
