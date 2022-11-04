@@ -753,14 +753,28 @@ body {
   fill: currentColor;
 }
 
-@media screen and (max-width: 1199px) {
+.header-contacts__envelope-icon {
+  width: 14px;
+  height: 10px;
+}
+@media screen and (min-width: 1200px) {
   .header-contacts__envelope-icon {
-    padding: 0 1px 1px 1px;
-  }
-  .header-contacts__smartphone-icon {
-    padding: 1px 0 0 0;
+    width: 16px;
+    height: 12px;
   }
 }
+
+.header-contacts__smartphone-icon {
+  width: 10px;
+  height: 14px;
+}
+@media screen and (min-width: 1200px) {
+  .header-contacts__smartphone-icon {
+    width: 10px;
+    height: 16px;
+  }
+}
+
 .hero {
   text-align: center;
   padding-top: 118px;
